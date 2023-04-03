@@ -4,6 +4,7 @@
   height: 440px;
   margin: 0 auto;
   background-color: #bf2d2d;
+  overflow: hidden;
 }
 
 .overlay {
@@ -31,10 +32,11 @@
   height: 440px;
   border-radius: 0 220px 220px 0;
   z-index: 1;
-  transform: translatex(-10%);
+  transform: translateX(-20px);
   transition: transform 750ms ease;
+  /* transform-origin: center left; */
 }
 
 .box:hover .image {
-  transform: translatex(0);
+  transform: translateX(0);
 }
