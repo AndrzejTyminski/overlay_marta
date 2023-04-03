@@ -13,6 +13,7 @@
   left: 50%;
   width: 50%;
   height: 50%;
+  /* kolor naroznika */
   background-color: #f7c43b;
   transform-origin: top left;
   transform: scale(0);
