@@ -1,4 +1,4 @@
-.box {
+.box-overlay {
   position: relative;
   width: 440px;
   height: 440px;
@@ -20,7 +20,7 @@
   transition: transform 750ms ease;
 }
 
-.box:hover .overlay {
+.box-overlay:hover .overlay {
   transform: scale(1);
 }
 
@@ -37,6 +37,6 @@
   /* transform-origin: center left; */
 }
 
-.box:hover .image {
+.box-overlay:hover .image {
   transform: translateX(0);
 }
