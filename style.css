@@ -7,7 +7,7 @@
   overflow: hidden;
 }
 
-.overlay-at {
+.corner-at {
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -17,10 +17,10 @@
   transform-origin: top left;
 
   transform: scale(0);
-  transition: transform 750ms ease;
+  transition: transform 450ms ease;
 }
 
-.box-at:hover .overlay-at {
+.box-at:hover .corner-at {
   transform: scale(1);
 }
 
@@ -33,9 +33,16 @@
   border-radius: 0 220px 220px 0;
   z-index: 1;
   transform: translateX(-100px);
-  transition: transform 750ms ease;
+  transition: transform 450ms ease;
 }
 
 .box-at:hover .image-at {
   transform: translateX(0);
+}
+
+.see-more-at {
+  position: absolute;
+  right: 60px;
+  top: -220px;
+  transform: scale(0.5);
 }
