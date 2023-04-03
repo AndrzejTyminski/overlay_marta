@@ -1,0 +1,35 @@
+.box {
+  position: relative;
+  width: 440px;
+  height: 440px;
+  margin: 0 auto;
+  background-color: #bf2d2d;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 50%;
+  height: 50%;
+  background-color: #f7c43b;
+  transform-origin: top left;
+
+  transform: scale(0);
+  transition: transform 750ms ease;
+}
+
+.box:hover .overlay {
+  transform: scale(1);
+}
+
+.image {
+  position: absolute;
+  left: 0px;
+  top: 0;
+  width: 440px;
+  height: 440px;
+  border-radius: 0 220px 220px 0;
+  z-index: 1;
+}
