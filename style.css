@@ -84,10 +84,7 @@
 
 /* nastepne */
 
-/* ************* */
-
-/* 
-********* */
+/* ********* */
 
 .button.next {
   width: 64px;
@@ -99,10 +96,9 @@
   border-radius: 50%;
 }
 
-.button-two.next:hover,
-.button-two.next:focus {
+.button-two.next:hover {
   animation: nextarrow 2s;
-
+  animation-iteration-count: 1;
 }
 
 @-webkit-keyframes nextarrow {
@@ -111,6 +107,6 @@
   }
 
   100% {
-    background-position: -600%;
+    background-position: -165%;
   }
 }
