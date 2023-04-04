@@ -83,3 +83,34 @@
 }
 
 /* nastepne */
+
+/* ************* */
+
+/* 
+********* */
+
+.button.next {
+  width: 64px;
+  height: 64px;
+
+  background-image: url(./arrow-slider.png);
+  background-position: 35%;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.button-two.next:hover,
+.button-two.next:focus {
+  animation: nextarrow 2s;
+
+}
+
+@-webkit-keyframes nextarrow {
+  0% {
+    background-position: 35%;
+  }
+
+  100% {
+    background-position: -600%;
+  }
+}
