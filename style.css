@@ -86,22 +86,21 @@
 
 /* ********* */
 
-.button.next {
+.button1.button3 {
   width: 64px;
   height: 64px;
-
   background-image: url(./arrow-slider.png);
   background-position: 35%;
   border: 1px solid black;
   border-radius: 50%;
 }
 
-.button-two.next:hover {
+.button2.button3:hover {
   animation: nextarrow 2s;
   animation-iteration-count: 1;
 }
 
-@-webkit-keyframes nextarrow {
+@keyframes nextarrow {
   0% {
     background-position: 35%;
   }
