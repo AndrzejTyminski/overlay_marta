@@ -218,3 +218,22 @@
   transform: translateX(-35px);
 }
 /* strzalka blog */
+
+/* strzalka trojkatna w gore */
+.arrow-up {
+  position: relative;
+  display: inline-block;
+  height: 64px;
+  width: 64px;
+  overflow: hidden;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.arrow-up-img {
+  position: absolute;
+  transition: transform 250ms cubic-bezier(0.63, -0.05, 0.37, 1);
+}
+.arrow-up:hover .arrow-up-img {
+  transform: translatey(-64px);
+}
+/* strzalka trojkatna w gore */
