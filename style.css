@@ -237,3 +237,7 @@
   transform: translatey(-64px);
 }
 /* strzalka trojkatna w gore */
+
+body {
+  background-color: brown;
+}
