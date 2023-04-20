@@ -1,5 +1,24 @@
 {
   "dependencies": {
     "react-percentage-bar": "^1.1.1"
-  }
+  },
+  "name": "overlay_marta",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrzejTyminski/overlay_marta.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndrzejTyminski/overlay_marta/issues"
+  },
+  "homepage": "https://github.com/AndrzejTyminski/overlay_marta#readme",
+  "keywords": [],
+  "description": ""
 }
