@@ -241,3 +241,20 @@
 body {
   background-color: brown;
 }
+
+
+
+
+.percentage:after { 
+  content: ""; 
+  display: block; 
+  background-color: #47de9a; 
+} 
+
+.percentage-20:after { 
+  width: 20%; 
+} 
+
+.percentage-30:after { 
+  width: 30%; 
+}
